@@ -46,7 +46,7 @@ object Form1: TForm1
   object Label2: TLabel
     Left = 8
     Top = 115
-    Width = 113
+    Width = 98
     Height = 30
     Caption = #1043#1088#1072#1092#1080#1082
     Font.Charset = DEFAULT_CHARSET
@@ -329,5 +329,29 @@ object Form1: TForm1
     ParentFont = False
     TabOrder = 7
     WordWrap = True
+  end
+  object RadioButton1: TRadioButton
+    Left = 209
+    Top = 103
+    Width = 193
+    Height = 17
+    Caption = #1052#1077#1090#1086#1076' '#1053#1100#1102#1090#1086#1085#1072'('#1091#1087#1088#1086#1097#1077#1085#1085#1099#1081')'
+    TabOrder = 9
+    OnClick = RadioButton1Click
+  end
+  object RadioButton2: TRadioButton
+    Left = 209
+    Top = 126
+    Width = 193
+    Height = 11
+    Caption = #1052#1077#1090#1086#1076' '#1087#1086#1083#1086#1074#1080#1085#1085#1086#1075#1086' '#1076#1077#1083#1077#1085#1080#1103
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = 15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 10
+    OnClick = RadioButton2Click
   end
 end
