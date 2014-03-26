@@ -182,6 +182,14 @@ object Form1: TForm1
     FixedCols = 0
     RowCount = 8
     TabOrder = 8
+    ColWidths = (
+      93
+      93
+      93
+      93
+      93
+      93
+      93)
   end
   object CheckBox1: TCheckBox
     Left = 551
