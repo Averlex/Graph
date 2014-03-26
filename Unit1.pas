@@ -1,4 +1,4 @@
-unit Unit3;
+unit Unit1;
 
 interface
 
@@ -7,7 +7,7 @@ uses
   Dialogs;
 
 type
-  TForm3 = class(TForm)
+  TForm1 = class(TForm)
   private
     { Private declarations }
   public
@@ -15,7 +15,7 @@ type
   end;
 
 var
-  Form3: TForm3;
+  Form1: TForm1;
 
 implementation
 
